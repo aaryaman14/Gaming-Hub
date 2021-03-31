@@ -1,0 +1,54 @@
+nav li:hover{
+    text-decoration: underline;
+}
+
+.im li img:hover{
+    position: relative;
+    bottom: 8px;
+}
+
+form:valid{
+    border: 4px dashed #71d300;
+}
+
+article p::selection{
+    background-color: slateblue;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 560px){
+    header{
+        font-size: 1.1em;
+    }
+    nav li{
+        font-size: 20px;
+        display: block;
+        width: 100%;
+        margin: 15px 0;
+    }
+    article p{
+        font-size: 10px;
+    }
+    .im li{
+        display: block;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .im li img:hover{
+        position: static;
+    }
+    main a{
+        font-size: 0.8em;
+    }
+    div{
+        font-size: 1em;
+    }
+    form{
+        font-size: 1em;
+    }
+    footer{
+        font-size: 20px;
+    }
+
+
+}
